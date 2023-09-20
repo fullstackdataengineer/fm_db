@@ -1,6 +1,6 @@
 # https://github.com/docker-library/mysql/blob/master/8.0/Dockerfile.debian
 # https://stackoverflow.com/a/73125279
-FROM mysql:8-debian
+FROM mysql:8
 
 ENV MYSQL_ROOT_PASSWORD=Mysecret!_dudb
 ENV DATABASE=farmers_market
